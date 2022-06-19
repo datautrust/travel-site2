@@ -2,7 +2,9 @@ import '../styles/styles.css'
 //alert("this is just a testxxxx");
 import mobilemenu from "./modules/MobileMenu.js";
 import revealonscroll from "./modules/RevealOnScroll.js";
+import StickyHeader from "./modules/StickyHeader";
 
+let stickHeader = new StickyHeader();
 let mobileMenu = new mobilemenu();
 // let revealOnScroll = new revealonscroll();
 new revealonscroll(document.querySelectorAll(".feature-item"),75);
