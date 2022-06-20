@@ -1,4 +1,5 @@
-import '../styles/styles.css'
+import '../styles/styles.css';
+import 'lazysizes';
 //alert("this is just a testxxxx");
 import mobilemenu from "./modules/MobileMenu.js";
 import revealonscroll from "./modules/RevealOnScroll.js";
